@@ -1,0 +1,11 @@
+
+
+use_frameworks!
+target ‘Haramain’ do
+    pod 'AlamofireSwiftyJSON'
+    pod 'SDWebImage', '~> 4.0'
+    pod 'SJSwiftSideMenuController'
+    pod 'SVProgressHUD'
+    pod 'ImageViewer'
+    pod "youtube-ios-player-helper", "~> 0.1.4"
+end

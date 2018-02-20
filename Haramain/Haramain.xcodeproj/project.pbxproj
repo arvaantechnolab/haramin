@@ -1,0 +1,1227 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C52A8DA202042B6008764BC /* CategoryPrayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C52A8D9202042B6008764BC /* CategoryPrayerModel.swift */; };
+		CCDE8F97B7E3E959324B2FE6 /* Pods_Haramain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725747185BFEFC5461BB0D11 /* Pods_Haramain.framework */; };
+		ED00A2CC202BFAE100527265 /* PreviousKhutbahBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED00A2CA202BFAE100527265 /* PreviousKhutbahBaseClass.swift */; };
+		ED00A2CD202BFAE100527265 /* PreviousKhutbahData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED00A2CB202BFAE100527265 /* PreviousKhutbahData.swift */; };
+		ED11ADD4203BB47E003A3E7C /* CMSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11ADD3203BB47E003A3E7C /* CMSViewController.swift */; };
+		ED11ADD7203BB62E003A3E7C /* ImaamsScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11ADD6203BB62D003A3E7C /* ImaamsScheduleVC.swift */; };
+		ED11ADD9203BB9DC003A3E7C /* GPSPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11ADD8203BB9DB003A3E7C /* GPSPopUpVC.swift */; };
+		ED11ADDC203BEB43003A3E7C /* DynamicPopUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11ADDB203BEB43003A3E7C /* DynamicPopUP.swift */; };
+		ED1E527C20368DAF001C61B5 /* SinglePlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1E527B20368DAF001C61B5 /* SinglePlayVC.swift */; };
+		ED20F7F4202B7ACD004725CE /* KhutbahsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED20F7F3202B7ACD004725CE /* KhutbahsVC.swift */; };
+		ED20F7F6202B7B0E004725CE /* MonthListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED20F7F5202B7B0E004725CE /* MonthListVC.swift */; };
+		ED20F7FA202BE7B7004725CE /* KhutbahsYearsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED20F7F9202BE7B7004725CE /* KhutbahsYearsVC.swift */; };
+		ED21B6C7202F9D2B000F331E /* LanguageListBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21B6C5202F9D2B000F331E /* LanguageListBaseClass.swift */; };
+		ED21B6C8202F9D2B000F331E /* LanguageListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21B6C6202F9D2B000F331E /* LanguageListData.swift */; };
+		ED21B6CD20305BE0000F331E /* MuadhinsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21B6CC20305BE0000F331E /* MuadhinsVC.swift */; };
+		ED21B6CF2030BECE000F331E /* SingerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21B6CE2030BECE000F331E /* SingerListVC.swift */; };
+		ED21B6D32030CA50000F331E /* SingerListBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21B6D12030CA4F000F331E /* SingerListBaseClass.swift */; };
+		ED21B6D42030CA50000F331E /* SingerListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21B6D22030CA4F000F331E /* SingerListData.swift */; };
+		ED21B6D82030DD46000F331E /* GpsHeadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21B6D72030DD46000F331E /* GpsHeadingVC.swift */; };
+		ED21B6DA2030DD5C000F331E /* GpsSubHeadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21B6D92030DD5C000F331E /* GpsSubHeadingVC.swift */; };
+		ED21B6DE2030DDAC000F331E /* LanguageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21B6DC2030DDAC000F331E /* LanguageCell.swift */; };
+		ED21B6DF2030DDAC000F331E /* LanguageListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21B6DD2030DDAC000F331E /* LanguageListVC.swift */; };
+		ED21B6E32030E490000F331E /* GpsHeadingBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21B6E12030E490000F331E /* GpsHeadingBaseClass.swift */; };
+		ED21B6E42030E490000F331E /* GpsHeadingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21B6E22030E490000F331E /* GpsHeadingData.swift */; };
+		ED21B6E92030E6F5000F331E /* GpsSubHeadingBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21B6E72030E6F5000F331E /* GpsSubHeadingBaseClass.swift */; };
+		ED21B6EA2030E6F5000F331E /* GpsSubHeadingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21B6E82030E6F5000F331E /* GpsSubHeadingData.swift */; };
+		ED21B6EC2030E7E5000F331E /* GalleryViewListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21B6EB2030E7E5000F331E /* GalleryViewListVC.swift */; };
+		ED270E7D20027F9200971FF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED270E7C20027F9200971FF1 /* AppDelegate.swift */; };
+		ED270E8220027F9200971FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED270E8020027F9200971FF1 /* Main.storyboard */; };
+		ED270E8420027F9200971FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED270E8320027F9200971FF1 /* Assets.xcassets */; };
+		ED270E8720027F9200971FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED270E8520027F9200971FF1 /* LaunchScreen.storyboard */; };
+		ED5086D8203383DF0092E096 /* YouTubeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5086D7203383DF0092E096 /* YouTubeVC.swift */; };
+		ED52C718201BB28A00D73AF4 /* MosqueGalleryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52C711201BB28900D73AF4 /* MosqueGalleryKey.swift */; };
+		ED52C719201BB28A00D73AF4 /* MosqueMasjidAlNabawi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52C712201BB28900D73AF4 /* MosqueMasjidAlNabawi.swift */; };
+		ED52C71A201BB28A00D73AF4 /* MosqueMasjidAlHaram.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52C713201BB28A00D73AF4 /* MosqueMasjidAlHaram.swift */; };
+		ED52C71B201BB28A00D73AF4 /* MosqueSubCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52C714201BB28A00D73AF4 /* MosqueSubCategory.swift */; };
+		ED52C71C201BB28A00D73AF4 /* MosqueSubCategoryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52C715201BB28A00D73AF4 /* MosqueSubCategoryDetail.swift */; };
+		ED52C71D201BB28A00D73AF4 /* MosqueData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52C716201BB28A00D73AF4 /* MosqueData.swift */; };
+		ED52C71E201BB28A00D73AF4 /* MosqueBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52C717201BB28A00D73AF4 /* MosqueBaseClass.swift */; };
+		ED52C72B201DB75200D73AF4 /* Apache License.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED52C720201DB75100D73AF4 /* Apache License.txt */; };
+		ED52C72C201DB75200D73AF4 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED52C721201DB75100D73AF4 /* OpenSans-Bold.ttf */; };
+		ED52C731201DB75200D73AF4 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED52C726201DB75100D73AF4 /* OpenSans-Light.ttf */; };
+		ED52C733201DB75200D73AF4 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED52C728201DB75100D73AF4 /* OpenSans-Regular.ttf */; };
+		ED52C734201DB75200D73AF4 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED52C729201DB75100D73AF4 /* OpenSans-Semibold.ttf */; };
+		ED52C73B201DBD7E00D73AF4 /* MTReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED52C738201DBD7E00D73AF4 /* MTReachabilityManager.m */; };
+		ED52C73C201DBD7E00D73AF4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = ED52C73A201DBD7E00D73AF4 /* Reachability.m */; };
+		ED52C742201DDEFF00D73AF4 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52C741201DDEFF00D73AF4 /* SideMenuController.swift */; };
+		ED52C74C201E566D00D73AF4 /* PrayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52C74B201E566D00D73AF4 /* PrayerVC.swift */; };
+		ED52C74F201E586300D73AF4 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52C74E201E586300D73AF4 /* DictionaryExtension.swift */; };
+		ED52C751201E592900D73AF4 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52C750201E592900D73AF4 /* DateExtension.swift */; };
+		ED52C755201E612800D73AF4 /* PrayerBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52C753201E612800D73AF4 /* PrayerBaseClass.swift */; };
+		ED52C756201E612800D73AF4 /* PrayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52C754201E612800D73AF4 /* PrayerData.swift */; };
+		ED6002CF2009757200D9B6E7 /* homeCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6002CD2009757200D9B6E7 /* homeCategoryCell.swift */; };
+		ED6002D02009757200D9B6E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6002CE2009757200D9B6E7 /* ViewController.swift */; };
+		ED6002D420097CAC00D9B6E7 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6002D320097CAC00D9B6E7 /* ApiManager.swift */; };
+		ED653A882025CB8700836DDD /* CellWithButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653A872025CB8700836DDD /* CellWithButtonCell.swift */; };
+		ED653A8A2025CB9A00836DDD /* GpsLightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653A892025CB9A00836DDD /* GpsLightCell.swift */; };
+		ED653A8C2025CBA800836DDD /* MultiLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653A8B2025CBA800836DDD /* MultiLineCell.swift */; };
+		ED653A8E2025CBBC00836DDD /* OnlyImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653A8D2025CBBC00836DDD /* OnlyImageCell.swift */; };
+		ED653A902025CBC900836DDD /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653A8F2025CBC900836DDD /* PlayerCell.swift */; };
+		ED653A922025CBD600836DDD /* SingleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653A912025CBD600836DDD /* SingleCell.swift */; };
+		ED653A942025CC0C00836DDD /* CellWithButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED653A932025CC0C00836DDD /* CellWithButtonCell.xib */; };
+		ED653A962025CC7700836DDD /* GpsLightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED653A952025CC7700836DDD /* GpsLightCell.xib */; };
+		ED653A982025CC7E00836DDD /* MultiLineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED653A972025CC7E00836DDD /* MultiLineCell.xib */; };
+		ED653A9A2025CC8800836DDD /* OnlyImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED653A992025CC8800836DDD /* OnlyImageCell.xib */; };
+		ED653A9C2025CC8E00836DDD /* PlayerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED653A9B2025CC8E00836DDD /* PlayerCell.xib */; };
+		ED653A9E2025CC9600836DDD /* SingleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED653A9D2025CC9600836DDD /* SingleCell.xib */; };
+		ED653AA52027558800836DDD /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AA42027558800836DDD /* ViewExtension.swift */; };
+		ED653AA72027849F00836DDD /* SelectImaam.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AA62027849F00836DDD /* SelectImaam.swift */; };
+		ED653AAB202792FE00836DDD /* ImmamBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AA9202792FD00836DDD /* ImmamBaseClass.swift */; };
+		ED653AAC202792FE00836DDD /* ImmamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AAA202792FD00836DDD /* ImmamData.swift */; };
+		ED653AB32027A25200836DDD /* ImmamAudioBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AB12027A25200836DDD /* ImmamAudioBaseClass.swift */; };
+		ED653AB42027A25200836DDD /* ImmamAudioData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AB22027A25200836DDD /* ImmamAudioData.swift */; };
+		ED6979CA20399C93009611E0 /* MakkahMadinahListBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6979C920399C93009611E0 /* MakkahMadinahListBaseClass.swift */; };
+		ED6979CB203A068E009611E0 /* MakkahMadinahPlayingListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9B0BD7203535C500B7E7DF /* MakkahMadinahPlayingListVC.swift */; };
+		ED6979CD203A127E009611E0 /* MakkahMultipleLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6979CC203A127E009611E0 /* MakkahMultipleLineTableViewCell.swift */; };
+		ED6979CF203A12BD009611E0 /* MakkahMadinahPlayerSingleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6979CE203A12BD009611E0 /* MakkahMadinahPlayerSingleTableViewCell.swift */; };
+		ED9B0BD62035359E00B7E7DF /* makkahMadinahDailySalahList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9B0BD52035359E00B7E7DF /* makkahMadinahDailySalahList.swift */; };
+		EDA5E5C5201935B200F994ED /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5E5C4201935B200F994ED /* AppConstant.swift */; };
+		EDC8BE7C2027A938007CD3BF /* SelectCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC8BE7B2027A938007CD3BF /* SelectCategoryVC.swift */; };
+		EDC8BE7F2027AEB1007CD3BF /* PreviousTaraweehVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC8BE7E2027AEB1007CD3BF /* PreviousTaraweehVC.swift */; };
+		EDC8BE832027B3CC007CD3BF /* TareweehBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC8BE812027B3CB007CD3BF /* TareweehBaseClass.swift */; };
+		EDC8BE842027B3CC007CD3BF /* TareweehData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC8BE822027B3CB007CD3BF /* TareweehData.swift */; };
+		EDC9D1D9203A194B005A3424 /* MakkahPlayerListBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC9D1D5203A194A005A3424 /* MakkahPlayerListBaseClass.swift */; };
+		EDC9D1DA203A194B005A3424 /* MakkahPlayerListEntries.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC9D1D6203A194A005A3424 /* MakkahPlayerListEntries.swift */; };
+		EDC9D1DB203A194B005A3424 /* MakkahPlayerListMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC9D1D7203A194A005A3424 /* MakkahPlayerListMetadata.swift */; };
+		EDC9D1DC203A194B005A3424 /* MakkahPlayerListUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC9D1D8203A194A005A3424 /* MakkahPlayerListUrls.swift */; };
+		EDD70EFD2028F2C2006B95C4 /* TawaafCounterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD70EFA2028F2C2006B95C4 /* TawaafCounterCell.swift */; };
+		EDD70EFE2028F2C2006B95C4 /* TawaafCounterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD70EFB2028F2C2006B95C4 /* TawaafCounterVC.swift */; };
+		EDD70EFF2028F2C2006B95C4 /* TawaafVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD70EFC2028F2C2006B95C4 /* TawaafVC.swift */; };
+		EDD70F022028F38F006B95C4 /* TawaafCounterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD70F012028F38F006B95C4 /* TawaafCounterModel.swift */; };
+		EDD70F062028F474006B95C4 /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD70F052028F474006B95C4 /* PlayerVC.swift */; };
+		EDD70F082028F4A2006B95C4 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD70F072028F4A2006B95C4 /* Utilities.swift */; };
+		EDD70F0B2028F80F006B95C4 /* ShowImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD70F0A2028F80F006B95C4 /* ShowImageVC.swift */; };
+		EDD70F0F202900D1006B95C4 /* ImageBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD70F0D202900D1006B95C4 /* ImageBaseClass.swift */; };
+		EDD70F10202900D1006B95C4 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD70F0E202900D1006B95C4 /* ImageData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		640B4E2141A59DD89BC78B30 /* Pods-Haramain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haramain.release.xcconfig"; path = "Pods/Target Support Files/Pods-Haramain/Pods-Haramain.release.xcconfig"; sourceTree = "<group>"; };
+		6C52A8D9202042B6008764BC /* CategoryPrayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPrayerModel.swift; sourceTree = "<group>"; };
+		725747185BFEFC5461BB0D11 /* Pods_Haramain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Haramain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED00A2CA202BFAE100527265 /* PreviousKhutbahBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviousKhutbahBaseClass.swift; sourceTree = "<group>"; };
+		ED00A2CB202BFAE100527265 /* PreviousKhutbahData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviousKhutbahData.swift; sourceTree = "<group>"; };
+		ED11ADD3203BB47E003A3E7C /* CMSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMSViewController.swift; sourceTree = "<group>"; };
+		ED11ADD6203BB62D003A3E7C /* ImaamsScheduleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImaamsScheduleVC.swift; sourceTree = "<group>"; };
+		ED11ADD8203BB9DB003A3E7C /* GPSPopUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSPopUpVC.swift; sourceTree = "<group>"; };
+		ED11ADDB203BEB43003A3E7C /* DynamicPopUP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicPopUP.swift; sourceTree = "<group>"; };
+		ED1E527B20368DAF001C61B5 /* SinglePlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayVC.swift; sourceTree = "<group>"; };
+		ED20F7F3202B7ACD004725CE /* KhutbahsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhutbahsVC.swift; sourceTree = "<group>"; };
+		ED20F7F5202B7B0E004725CE /* MonthListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthListVC.swift; sourceTree = "<group>"; };
+		ED20F7F9202BE7B7004725CE /* KhutbahsYearsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhutbahsYearsVC.swift; sourceTree = "<group>"; };
+		ED21B6C5202F9D2B000F331E /* LanguageListBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageListBaseClass.swift; sourceTree = "<group>"; };
+		ED21B6C6202F9D2B000F331E /* LanguageListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageListData.swift; sourceTree = "<group>"; };
+		ED21B6CC20305BE0000F331E /* MuadhinsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuadhinsVC.swift; sourceTree = "<group>"; };
+		ED21B6CE2030BECE000F331E /* SingerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerListVC.swift; sourceTree = "<group>"; };
+		ED21B6D12030CA4F000F331E /* SingerListBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingerListBaseClass.swift; sourceTree = "<group>"; };
+		ED21B6D22030CA4F000F331E /* SingerListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingerListData.swift; sourceTree = "<group>"; };
+		ED21B6D72030DD46000F331E /* GpsHeadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsHeadingVC.swift; sourceTree = "<group>"; };
+		ED21B6D92030DD5C000F331E /* GpsSubHeadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsSubHeadingVC.swift; sourceTree = "<group>"; };
+		ED21B6DC2030DDAC000F331E /* LanguageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageCell.swift; sourceTree = "<group>"; };
+		ED21B6DD2030DDAC000F331E /* LanguageListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageListVC.swift; sourceTree = "<group>"; };
+		ED21B6E12030E490000F331E /* GpsHeadingBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GpsHeadingBaseClass.swift; sourceTree = "<group>"; };
+		ED21B6E22030E490000F331E /* GpsHeadingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GpsHeadingData.swift; sourceTree = "<group>"; };
+		ED21B6E72030E6F5000F331E /* GpsSubHeadingBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GpsSubHeadingBaseClass.swift; sourceTree = "<group>"; };
+		ED21B6E82030E6F5000F331E /* GpsSubHeadingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GpsSubHeadingData.swift; sourceTree = "<group>"; };
+		ED21B6EB2030E7E5000F331E /* GalleryViewListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewListVC.swift; sourceTree = "<group>"; };
+		ED270E7920027F9200971FF1 /* Haramain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haramain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED270E7C20027F9200971FF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED270E8120027F9200971FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED270E8320027F9200971FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED270E8620027F9200971FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED270E8820027F9200971FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5086D7203383DF0092E096 /* YouTubeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeVC.swift; sourceTree = "<group>"; };
+		ED52C711201BB28900D73AF4 /* MosqueGalleryKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosqueGalleryKey.swift; sourceTree = "<group>"; };
+		ED52C712201BB28900D73AF4 /* MosqueMasjidAlNabawi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosqueMasjidAlNabawi.swift; sourceTree = "<group>"; };
+		ED52C713201BB28A00D73AF4 /* MosqueMasjidAlHaram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosqueMasjidAlHaram.swift; sourceTree = "<group>"; };
+		ED52C714201BB28A00D73AF4 /* MosqueSubCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosqueSubCategory.swift; sourceTree = "<group>"; };
+		ED52C715201BB28A00D73AF4 /* MosqueSubCategoryDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosqueSubCategoryDetail.swift; sourceTree = "<group>"; };
+		ED52C716201BB28A00D73AF4 /* MosqueData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosqueData.swift; sourceTree = "<group>"; };
+		ED52C717201BB28A00D73AF4 /* MosqueBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosqueBaseClass.swift; sourceTree = "<group>"; };
+		ED52C720201DB75100D73AF4 /* Apache License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Apache License.txt"; sourceTree = "<group>"; };
+		ED52C721201DB75100D73AF4 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		ED52C726201DB75100D73AF4 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		ED52C728201DB75100D73AF4 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		ED52C729201DB75100D73AF4 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		ED52C737201DBD7E00D73AF4 /* MTReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTReachabilityManager.h; sourceTree = "<group>"; };
+		ED52C738201DBD7E00D73AF4 /* MTReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTReachabilityManager.m; sourceTree = "<group>"; };
+		ED52C739201DBD7E00D73AF4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		ED52C73A201DBD7E00D73AF4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		ED52C73D201DBEBD00D73AF4 /* HaraminBridginHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaraminBridginHeader.h; sourceTree = "<group>"; };
+		ED52C741201DDEFF00D73AF4 /* SideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		ED52C74B201E566D00D73AF4 /* PrayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerVC.swift; sourceTree = "<group>"; };
+		ED52C74E201E586300D73AF4 /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		ED52C750201E592900D73AF4 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		ED52C753201E612800D73AF4 /* PrayerBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerBaseClass.swift; sourceTree = "<group>"; };
+		ED52C754201E612800D73AF4 /* PrayerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerData.swift; sourceTree = "<group>"; };
+		ED6002CD2009757200D9B6E7 /* homeCategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeCategoryCell.swift; sourceTree = "<group>"; };
+		ED6002CE2009757200D9B6E7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED6002D320097CAC00D9B6E7 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		ED653A872025CB8700836DDD /* CellWithButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellWithButtonCell.swift; sourceTree = "<group>"; };
+		ED653A892025CB9A00836DDD /* GpsLightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsLightCell.swift; sourceTree = "<group>"; };
+		ED653A8B2025CBA800836DDD /* MultiLineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLineCell.swift; sourceTree = "<group>"; };
+		ED653A8D2025CBBC00836DDD /* OnlyImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyImageCell.swift; sourceTree = "<group>"; };
+		ED653A8F2025CBC900836DDD /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		ED653A912025CBD600836DDD /* SingleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCell.swift; sourceTree = "<group>"; };
+		ED653A932025CC0C00836DDD /* CellWithButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellWithButtonCell.xib; sourceTree = "<group>"; };
+		ED653A952025CC7700836DDD /* GpsLightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GpsLightCell.xib; sourceTree = "<group>"; };
+		ED653A972025CC7E00836DDD /* MultiLineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiLineCell.xib; sourceTree = "<group>"; };
+		ED653A992025CC8800836DDD /* OnlyImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnlyImageCell.xib; sourceTree = "<group>"; };
+		ED653A9B2025CC8E00836DDD /* PlayerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerCell.xib; sourceTree = "<group>"; };
+		ED653A9D2025CC9600836DDD /* SingleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleCell.xib; sourceTree = "<group>"; };
+		ED653AA12025CDDA00836DDD /* Haramain.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Haramain.entitlements; sourceTree = "<group>"; };
+		ED653AA42027558800836DDD /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		ED653AA62027849F00836DDD /* SelectImaam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectImaam.swift; sourceTree = "<group>"; };
+		ED653AA9202792FD00836DDD /* ImmamBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmamBaseClass.swift; sourceTree = "<group>"; };
+		ED653AAA202792FD00836DDD /* ImmamData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmamData.swift; sourceTree = "<group>"; };
+		ED653AB12027A25200836DDD /* ImmamAudioBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmamAudioBaseClass.swift; sourceTree = "<group>"; };
+		ED653AB22027A25200836DDD /* ImmamAudioData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmamAudioData.swift; sourceTree = "<group>"; };
+		ED6979C920399C93009611E0 /* MakkahMadinahListBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakkahMadinahListBaseClass.swift; sourceTree = "<group>"; };
+		ED6979CC203A127E009611E0 /* MakkahMultipleLineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakkahMultipleLineTableViewCell.swift; sourceTree = "<group>"; };
+		ED6979CE203A12BD009611E0 /* MakkahMadinahPlayerSingleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakkahMadinahPlayerSingleTableViewCell.swift; sourceTree = "<group>"; };
+		ED9B0BD52035359E00B7E7DF /* makkahMadinahDailySalahList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makkahMadinahDailySalahList.swift; sourceTree = "<group>"; };
+		ED9B0BD7203535C500B7E7DF /* MakkahMadinahPlayingListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakkahMadinahPlayingListVC.swift; sourceTree = "<group>"; };
+		EDA5E5C4201935B200F994ED /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		EDC8BE7B2027A938007CD3BF /* SelectCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategoryVC.swift; sourceTree = "<group>"; };
+		EDC8BE7E2027AEB1007CD3BF /* PreviousTaraweehVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousTaraweehVC.swift; sourceTree = "<group>"; };
+		EDC8BE812027B3CB007CD3BF /* TareweehBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TareweehBaseClass.swift; sourceTree = "<group>"; };
+		EDC8BE822027B3CB007CD3BF /* TareweehData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TareweehData.swift; sourceTree = "<group>"; };
+		EDC9D1D5203A194A005A3424 /* MakkahPlayerListBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakkahPlayerListBaseClass.swift; sourceTree = "<group>"; };
+		EDC9D1D6203A194A005A3424 /* MakkahPlayerListEntries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakkahPlayerListEntries.swift; sourceTree = "<group>"; };
+		EDC9D1D7203A194A005A3424 /* MakkahPlayerListMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakkahPlayerListMetadata.swift; sourceTree = "<group>"; };
+		EDC9D1D8203A194A005A3424 /* MakkahPlayerListUrls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakkahPlayerListUrls.swift; sourceTree = "<group>"; };
+		EDD70EFA2028F2C2006B95C4 /* TawaafCounterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TawaafCounterCell.swift; sourceTree = "<group>"; };
+		EDD70EFB2028F2C2006B95C4 /* TawaafCounterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TawaafCounterVC.swift; sourceTree = "<group>"; };
+		EDD70EFC2028F2C2006B95C4 /* TawaafVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TawaafVC.swift; sourceTree = "<group>"; };
+		EDD70F012028F38F006B95C4 /* TawaafCounterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TawaafCounterModel.swift; sourceTree = "<group>"; };
+		EDD70F052028F474006B95C4 /* PlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
+		EDD70F072028F4A2006B95C4 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EDD70F0A2028F80F006B95C4 /* ShowImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageVC.swift; sourceTree = "<group>"; };
+		EDD70F0D202900D1006B95C4 /* ImageBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageBaseClass.swift; sourceTree = "<group>"; };
+		EDD70F0E202900D1006B95C4 /* ImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		F8ACFE49E082CF8EA7719D19 /* Pods-Haramain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haramain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Haramain/Pods-Haramain.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED270E7620027F9200971FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDE8F97B7E3E959324B2FE6 /* Pods_Haramain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E820C31F2EC2E466B5DA4C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8ACFE49E082CF8EA7719D19 /* Pods-Haramain.debug.xcconfig */,
+				640B4E2141A59DD89BC78B30 /* Pods-Haramain.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1C3562056A66C97018DC048 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				725747185BFEFC5461BB0D11 /* Pods_Haramain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED00A2C9202BFAE100527265 /* PreviousKhutbans */ = {
+			isa = PBXGroup;
+			children = (
+				ED00A2CA202BFAE100527265 /* PreviousKhutbahBaseClass.swift */,
+				ED00A2CB202BFAE100527265 /* PreviousKhutbahData.swift */,
+			);
+			path = PreviousKhutbans;
+			sourceTree = "<group>";
+		};
+		ED11ADD5203BB601003A3E7C /* MakkahMadinahPopUP */ = {
+			isa = PBXGroup;
+			children = (
+				ED11ADD6203BB62D003A3E7C /* ImaamsScheduleVC.swift */,
+			);
+			path = MakkahMadinahPopUP;
+			sourceTree = "<group>";
+		};
+		ED11ADDA203BEB2E003A3E7C /* DynamicPopUP */ = {
+			isa = PBXGroup;
+			children = (
+				ED11ADDB203BEB43003A3E7C /* DynamicPopUP.swift */,
+			);
+			path = DynamicPopUP;
+			sourceTree = "<group>";
+		};
+		ED1E527A20368D9C001C61B5 /* SinglePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				ED1E527B20368DAF001C61B5 /* SinglePlayVC.swift */,
+			);
+			path = SinglePlayer;
+			sourceTree = "<group>";
+		};
+		ED20F7F2202B7AB0004725CE /* KhutbahsTranslation */ = {
+			isa = PBXGroup;
+			children = (
+				ED20F7F3202B7ACD004725CE /* KhutbahsVC.swift */,
+				ED20F7F5202B7B0E004725CE /* MonthListVC.swift */,
+				ED20F7F9202BE7B7004725CE /* KhutbahsYearsVC.swift */,
+			);
+			path = KhutbahsTranslation;
+			sourceTree = "<group>";
+		};
+		ED21B6C4202F9D2B000F331E /* LanguageList */ = {
+			isa = PBXGroup;
+			children = (
+				ED21B6C5202F9D2B000F331E /* LanguageListBaseClass.swift */,
+				ED21B6C6202F9D2B000F331E /* LanguageListData.swift */,
+			);
+			path = LanguageList;
+			sourceTree = "<group>";
+		};
+		ED21B6CB203059D7000F331E /* Muadhins */ = {
+			isa = PBXGroup;
+			children = (
+				ED21B6CC20305BE0000F331E /* MuadhinsVC.swift */,
+				ED21B6CE2030BECE000F331E /* SingerListVC.swift */,
+			);
+			path = Muadhins;
+			sourceTree = "<group>";
+		};
+		ED21B6D02030CA4F000F331E /* SingerList */ = {
+			isa = PBXGroup;
+			children = (
+				ED21B6D12030CA4F000F331E /* SingerListBaseClass.swift */,
+				ED21B6D22030CA4F000F331E /* SingerListData.swift */,
+			);
+			path = SingerList;
+			sourceTree = "<group>";
+		};
+		ED21B6D52030DD31000F331E /* GPSSubHeading */ = {
+			isa = PBXGroup;
+			children = (
+				ED21B6D92030DD5C000F331E /* GpsSubHeadingVC.swift */,
+			);
+			path = GPSSubHeading;
+			sourceTree = "<group>";
+		};
+		ED21B6D62030DD32000F331E /* GPSHeading */ = {
+			isa = PBXGroup;
+			children = (
+				ED21B6D72030DD46000F331E /* GpsHeadingVC.swift */,
+			);
+			path = GPSHeading;
+			sourceTree = "<group>";
+		};
+		ED21B6DB2030DDAC000F331E /* ListOfLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				ED21B6DC2030DDAC000F331E /* LanguageCell.swift */,
+				ED21B6DD2030DDAC000F331E /* LanguageListVC.swift */,
+			);
+			path = ListOfLanguage;
+			sourceTree = "<group>";
+		};
+		ED21B6E02030E490000F331E /* GpsHeading */ = {
+			isa = PBXGroup;
+			children = (
+				ED21B6E12030E490000F331E /* GpsHeadingBaseClass.swift */,
+				ED21B6E22030E490000F331E /* GpsHeadingData.swift */,
+			);
+			path = GpsHeading;
+			sourceTree = "<group>";
+		};
+		ED21B6E52030E67D000F331E /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				ED21B6EB2030E7E5000F331E /* GalleryViewListVC.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		ED21B6E62030E6F5000F331E /* GpsSubHeading */ = {
+			isa = PBXGroup;
+			children = (
+				ED21B6E72030E6F5000F331E /* GpsSubHeadingBaseClass.swift */,
+				ED21B6E82030E6F5000F331E /* GpsSubHeadingData.swift */,
+			);
+			path = GpsSubHeading;
+			sourceTree = "<group>";
+		};
+		ED270E7020027F9200971FF1 = {
+			isa = PBXGroup;
+			children = (
+				ED270E7B20027F9200971FF1 /* Haramain */,
+				ED270E7A20027F9200971FF1 /* Products */,
+				5E820C31F2EC2E466B5DA4C0 /* Pods */,
+				A1C3562056A66C97018DC048 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED270E7A20027F9200971FF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED270E7920027F9200971FF1 /* Haramain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED270E7B20027F9200971FF1 /* Haramain */ = {
+			isa = PBXGroup;
+			children = (
+				ED653AA12025CDDA00836DDD /* Haramain.entitlements */,
+				ED270E7C20027F9200971FF1 /* AppDelegate.swift */,
+				EDA5E5C3201935A000F994ED /* Supporting */,
+				ED6002CB2009757200D9B6E7 /* Class */,
+				ED6002D220097C8F00D9B6E7 /* Model and Api */,
+				ED270E8020027F9200971FF1 /* Main.storyboard */,
+				ED270E8320027F9200971FF1 /* Assets.xcassets */,
+				ED270E8520027F9200971FF1 /* LaunchScreen.storyboard */,
+				ED270E8820027F9200971FF1 /* Info.plist */,
+			);
+			path = Haramain;
+			sourceTree = "<group>";
+		};
+		ED5086D6203383C80092E096 /* YoutubeController */ = {
+			isa = PBXGroup;
+			children = (
+				ED5086D7203383DF0092E096 /* YouTubeVC.swift */,
+			);
+			path = YoutubeController;
+			sourceTree = "<group>";
+		};
+		ED52C702201BB24800D73AF4 /* MosqueEnglish */ = {
+			isa = PBXGroup;
+			children = (
+				ED52C717201BB28A00D73AF4 /* MosqueBaseClass.swift */,
+				ED52C716201BB28A00D73AF4 /* MosqueData.swift */,
+				ED52C711201BB28900D73AF4 /* MosqueGalleryKey.swift */,
+				ED52C713201BB28A00D73AF4 /* MosqueMasjidAlHaram.swift */,
+				ED52C712201BB28900D73AF4 /* MosqueMasjidAlNabawi.swift */,
+				ED52C714201BB28A00D73AF4 /* MosqueSubCategory.swift */,
+				ED52C715201BB28A00D73AF4 /* MosqueSubCategoryDetail.swift */,
+			);
+			path = MosqueEnglish;
+			sourceTree = "<group>";
+		};
+		ED52C71F201DB75100D73AF4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ED52C720201DB75100D73AF4 /* Apache License.txt */,
+				ED52C721201DB75100D73AF4 /* OpenSans-Bold.ttf */,
+				ED52C726201DB75100D73AF4 /* OpenSans-Light.ttf */,
+				ED52C728201DB75100D73AF4 /* OpenSans-Regular.ttf */,
+				ED52C729201DB75100D73AF4 /* OpenSans-Semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ED52C736201DBD7E00D73AF4 /* Reachbility */ = {
+			isa = PBXGroup;
+			children = (
+				ED52C737201DBD7E00D73AF4 /* MTReachabilityManager.h */,
+				ED52C738201DBD7E00D73AF4 /* MTReachabilityManager.m */,
+				ED52C739201DBD7E00D73AF4 /* Reachability.h */,
+				ED52C73A201DBD7E00D73AF4 /* Reachability.m */,
+			);
+			path = Reachbility;
+			sourceTree = "<group>";
+		};
+		ED52C73E201DDEDF00D73AF4 /* SideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				ED52C741201DDEFF00D73AF4 /* SideMenuController.swift */,
+			);
+			path = SideMenuController;
+			sourceTree = "<group>";
+		};
+		ED52C743201E55AE00D73AF4 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		ED52C744201E55AE00D73AF4 /* makkahMadinahDailySalahList */ = {
+			isa = PBXGroup;
+			children = (
+				ED9B0BD52035359E00B7E7DF /* makkahMadinahDailySalahList.swift */,
+			);
+			path = makkahMadinahDailySalahList;
+			sourceTree = "<group>";
+		};
+		ED52C745201E55AE00D73AF4 /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				ED11ADD3203BB47E003A3E7C /* CMSViewController.swift */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
+		ED52C746201E55AE00D73AF4 /* ReadQuran */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ReadQuran;
+			sourceTree = "<group>";
+		};
+		ED52C747201E55AF00D73AF4 /* ContactUs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContactUs;
+			sourceTree = "<group>";
+		};
+		ED52C748201E55AF00D73AF4 /* ImaamsSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				ED653AA62027849F00836DDD /* SelectImaam.swift */,
+			);
+			path = ImaamsSchedule;
+			sourceTree = "<group>";
+		};
+		ED52C749201E55AF00D73AF4 /* PrayerTimes */ = {
+			isa = PBXGroup;
+			children = (
+				ED52C74B201E566D00D73AF4 /* PrayerVC.swift */,
+			);
+			path = PrayerTimes;
+			sourceTree = "<group>";
+		};
+		ED52C74A201E55B000D73AF4 /* makkahMadinahPlayingList */ = {
+			isa = PBXGroup;
+			children = (
+				ED9B0BD7203535C500B7E7DF /* MakkahMadinahPlayingListVC.swift */,
+				ED6979CE203A12BD009611E0 /* MakkahMadinahPlayerSingleTableViewCell.swift */,
+				ED6979CC203A127E009611E0 /* MakkahMultipleLineTableViewCell.swift */,
+			);
+			path = makkahMadinahPlayingList;
+			sourceTree = "<group>";
+		};
+		ED52C74D201E586300D73AF4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ED52C74E201E586300D73AF4 /* DictionaryExtension.swift */,
+				ED52C750201E592900D73AF4 /* DateExtension.swift */,
+				ED653AA42027558800836DDD /* ViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		ED52C752201E612800D73AF4 /* Prayer */ = {
+			isa = PBXGroup;
+			children = (
+				ED52C753201E612800D73AF4 /* PrayerBaseClass.swift */,
+				ED52C754201E612800D73AF4 /* PrayerData.swift */,
+				6C52A8D9202042B6008764BC /* CategoryPrayerModel.swift */,
+			);
+			path = Prayer;
+			sourceTree = "<group>";
+		};
+		ED6002CB2009757200D9B6E7 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				ED11ADDA203BEB2E003A3E7C /* DynamicPopUP */,
+				ED11ADD5203BB601003A3E7C /* MakkahMadinahPopUP */,
+				ED1E527A20368D9C001C61B5 /* SinglePlayer */,
+				ED5086D6203383C80092E096 /* YoutubeController */,
+				ED21B6E52030E67D000F331E /* Gallery */,
+				ED21B6DB2030DDAC000F331E /* ListOfLanguage */,
+				ED21B6D62030DD32000F331E /* GPSHeading */,
+				ED21B6D52030DD31000F331E /* GPSSubHeading */,
+				ED21B6CB203059D7000F331E /* Muadhins */,
+				ED20F7F2202B7AB0004725CE /* KhutbahsTranslation */,
+				ED653A802025CB6F00836DDD /* CustomCell */,
+				EDD70EF92028F2C2006B95C4 /* Tawaaf */,
+				EDC8BE7A2027A923007CD3BF /* SelectCategory */,
+				ED52C73E201DDEDF00D73AF4 /* SideMenuController */,
+				ED52C745201E55AE00D73AF4 /* AboutUs */,
+				ED653AAD20279D5900836DDD /* PlayerVC */,
+				ED52C747201E55AF00D73AF4 /* ContactUs */,
+				ED52C743201E55AE00D73AF4 /* Favourites */,
+				EDC8BE7D2027AE8F007CD3BF /* PreviousTaraweeh */,
+				ED52C748201E55AF00D73AF4 /* ImaamsSchedule */,
+				ED52C74A201E55B000D73AF4 /* makkahMadinahPlayingList */,
+				ED52C744201E55AE00D73AF4 /* makkahMadinahDailySalahList */,
+				ED52C749201E55AF00D73AF4 /* PrayerTimes */,
+				EDD70F092028F7F9006B95C4 /* ShowImageVC */,
+				ED52C746201E55AE00D73AF4 /* ReadQuran */,
+				ED6002CC2009757200D9B6E7 /* FirstVC */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		ED6002CC2009757200D9B6E7 /* FirstVC */ = {
+			isa = PBXGroup;
+			children = (
+				ED11ADD8203BB9DB003A3E7C /* GPSPopUpVC.swift */,
+				ED6002CD2009757200D9B6E7 /* homeCategoryCell.swift */,
+				ED6002CE2009757200D9B6E7 /* ViewController.swift */,
+			);
+			path = FirstVC;
+			sourceTree = "<group>";
+		};
+		ED6002D220097C8F00D9B6E7 /* Model and Api */ = {
+			isa = PBXGroup;
+			children = (
+				EDC9D1D4203A194A005A3424 /* MakkahPlayerList */,
+				ED6979C820399C93009611E0 /* MakkahMadinah */,
+				ED21B6E62030E6F5000F331E /* GpsSubHeading */,
+				ED21B6E02030E490000F331E /* GpsHeading */,
+				ED21B6D02030CA4F000F331E /* SingerList */,
+				ED21B6C4202F9D2B000F331E /* LanguageList */,
+				ED00A2C9202BFAE100527265 /* PreviousKhutbans */,
+				EDD70F0C202900D1006B95C4 /* ImageModel */,
+				EDD70F002028F38F006B95C4 /* Tawaaf */,
+				EDC8BE802027B3CB007CD3BF /* Tareweeh */,
+				ED653AB02027A25200836DDD /* ImmamAudio */,
+				ED653AA8202792FD00836DDD /* Immam */,
+				ED52C752201E612800D73AF4 /* Prayer */,
+				ED52C702201BB24800D73AF4 /* MosqueEnglish */,
+				ED6002D320097CAC00D9B6E7 /* ApiManager.swift */,
+			);
+			path = "Model and Api";
+			sourceTree = "<group>";
+		};
+		ED653A802025CB6F00836DDD /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED653A812025CB6F00836DDD /* CellWithButton */,
+				ED653A822025CB6F00836DDD /* GpsLightCell */,
+				ED653A832025CB6F00836DDD /* MultilineCell */,
+				ED653A842025CB6F00836DDD /* OnlyImageCell */,
+				ED653A852025CB6F00836DDD /* PlayerCell */,
+				ED653A862025CB6F00836DDD /* SingleLineCell */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		ED653A812025CB6F00836DDD /* CellWithButton */ = {
+			isa = PBXGroup;
+			children = (
+				ED653A872025CB8700836DDD /* CellWithButtonCell.swift */,
+				ED653A932025CC0C00836DDD /* CellWithButtonCell.xib */,
+			);
+			path = CellWithButton;
+			sourceTree = "<group>";
+		};
+		ED653A822025CB6F00836DDD /* GpsLightCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED653A892025CB9A00836DDD /* GpsLightCell.swift */,
+				ED653A952025CC7700836DDD /* GpsLightCell.xib */,
+			);
+			path = GpsLightCell;
+			sourceTree = "<group>";
+		};
+		ED653A832025CB6F00836DDD /* MultilineCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED653A8B2025CBA800836DDD /* MultiLineCell.swift */,
+				ED653A972025CC7E00836DDD /* MultiLineCell.xib */,
+			);
+			path = MultilineCell;
+			sourceTree = "<group>";
+		};
+		ED653A842025CB6F00836DDD /* OnlyImageCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED653A8D2025CBBC00836DDD /* OnlyImageCell.swift */,
+				ED653A992025CC8800836DDD /* OnlyImageCell.xib */,
+			);
+			path = OnlyImageCell;
+			sourceTree = "<group>";
+		};
+		ED653A852025CB6F00836DDD /* PlayerCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED653A8F2025CBC900836DDD /* PlayerCell.swift */,
+				ED653A9B2025CC8E00836DDD /* PlayerCell.xib */,
+			);
+			path = PlayerCell;
+			sourceTree = "<group>";
+		};
+		ED653A862025CB6F00836DDD /* SingleLineCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED653A912025CBD600836DDD /* SingleCell.swift */,
+				ED653A9D2025CC9600836DDD /* SingleCell.xib */,
+			);
+			path = SingleLineCell;
+			sourceTree = "<group>";
+		};
+		ED653AA8202792FD00836DDD /* Immam */ = {
+			isa = PBXGroup;
+			children = (
+				ED653AA9202792FD00836DDD /* ImmamBaseClass.swift */,
+				ED653AAA202792FD00836DDD /* ImmamData.swift */,
+			);
+			path = Immam;
+			sourceTree = "<group>";
+		};
+		ED653AAD20279D5900836DDD /* PlayerVC */ = {
+			isa = PBXGroup;
+			children = (
+				EDD70F052028F474006B95C4 /* PlayerVC.swift */,
+			);
+			path = PlayerVC;
+			sourceTree = "<group>";
+		};
+		ED653AB02027A25200836DDD /* ImmamAudio */ = {
+			isa = PBXGroup;
+			children = (
+				ED653AB12027A25200836DDD /* ImmamAudioBaseClass.swift */,
+				ED653AB22027A25200836DDD /* ImmamAudioData.swift */,
+			);
+			path = ImmamAudio;
+			sourceTree = "<group>";
+		};
+		ED6979C820399C93009611E0 /* MakkahMadinah */ = {
+			isa = PBXGroup;
+			children = (
+				ED6979C920399C93009611E0 /* MakkahMadinahListBaseClass.swift */,
+			);
+			path = MakkahMadinah;
+			sourceTree = "<group>";
+		};
+		EDA5E5C3201935A000F994ED /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				EDD70F072028F4A2006B95C4 /* Utilities.swift */,
+				ED52C74D201E586300D73AF4 /* Extension */,
+				ED52C736201DBD7E00D73AF4 /* Reachbility */,
+				ED52C71F201DB75100D73AF4 /* Fonts */,
+				EDA5E5C4201935B200F994ED /* AppConstant.swift */,
+				ED52C73D201DBEBD00D73AF4 /* HaraminBridginHeader.h */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		EDC8BE7A2027A923007CD3BF /* SelectCategory */ = {
+			isa = PBXGroup;
+			children = (
+				EDC8BE7B2027A938007CD3BF /* SelectCategoryVC.swift */,
+			);
+			path = SelectCategory;
+			sourceTree = "<group>";
+		};
+		EDC8BE7D2027AE8F007CD3BF /* PreviousTaraweeh */ = {
+			isa = PBXGroup;
+			children = (
+				EDC8BE7E2027AEB1007CD3BF /* PreviousTaraweehVC.swift */,
+			);
+			name = PreviousTaraweeh;
+			path = Haramain/Class/PreviousTaraweeh;
+			sourceTree = SOURCE_ROOT;
+		};
+		EDC8BE802027B3CB007CD3BF /* Tareweeh */ = {
+			isa = PBXGroup;
+			children = (
+				EDC8BE812027B3CB007CD3BF /* TareweehBaseClass.swift */,
+				EDC8BE822027B3CB007CD3BF /* TareweehData.swift */,
+			);
+			path = Tareweeh;
+			sourceTree = "<group>";
+		};
+		EDC9D1D4203A194A005A3424 /* MakkahPlayerList */ = {
+			isa = PBXGroup;
+			children = (
+				EDC9D1D5203A194A005A3424 /* MakkahPlayerListBaseClass.swift */,
+				EDC9D1D6203A194A005A3424 /* MakkahPlayerListEntries.swift */,
+				EDC9D1D7203A194A005A3424 /* MakkahPlayerListMetadata.swift */,
+				EDC9D1D8203A194A005A3424 /* MakkahPlayerListUrls.swift */,
+			);
+			path = MakkahPlayerList;
+			sourceTree = "<group>";
+		};
+		EDD70EF92028F2C2006B95C4 /* Tawaaf */ = {
+			isa = PBXGroup;
+			children = (
+				EDD70EFA2028F2C2006B95C4 /* TawaafCounterCell.swift */,
+				EDD70EFB2028F2C2006B95C4 /* TawaafCounterVC.swift */,
+				EDD70EFC2028F2C2006B95C4 /* TawaafVC.swift */,
+			);
+			path = Tawaaf;
+			sourceTree = "<group>";
+		};
+		EDD70F002028F38F006B95C4 /* Tawaaf */ = {
+			isa = PBXGroup;
+			children = (
+				EDD70F012028F38F006B95C4 /* TawaafCounterModel.swift */,
+			);
+			path = Tawaaf;
+			sourceTree = "<group>";
+		};
+		EDD70F092028F7F9006B95C4 /* ShowImageVC */ = {
+			isa = PBXGroup;
+			children = (
+				EDD70F0A2028F80F006B95C4 /* ShowImageVC.swift */,
+			);
+			path = ShowImageVC;
+			sourceTree = "<group>";
+		};
+		EDD70F0C202900D1006B95C4 /* ImageModel */ = {
+			isa = PBXGroup;
+			children = (
+				EDD70F0D202900D1006B95C4 /* ImageBaseClass.swift */,
+				EDD70F0E202900D1006B95C4 /* ImageData.swift */,
+			);
+			path = ImageModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED270E7820027F9200971FF1 /* Haramain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED270E8B20027F9200971FF1 /* Build configuration list for PBXNativeTarget "Haramain" */;
+			buildPhases = (
+				9B0FD4A62EF0B46217E129BA /* [CP] Check Pods Manifest.lock */,
+				ED270E7520027F9200971FF1 /* Sources */,
+				ED270E7620027F9200971FF1 /* Frameworks */,
+				ED270E7720027F9200971FF1 /* Resources */,
+				A30BF4D56152D65F9E41BB81 /* [CP] Embed Pods Frameworks */,
+				5D45AEFA581C5D9AA0540647 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Haramain;
+			productName = Haramain;
+			productReference = ED270E7920027F9200971FF1 /* Haramain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED270E7120027F9200971FF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = naman;
+				TargetAttributes = {
+					ED270E7820027F9200971FF1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = ED270E7420027F9200971FF1 /* Build configuration list for PBXProject "Haramain" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED270E7020027F9200971FF1;
+			productRefGroup = ED270E7A20027F9200971FF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED270E7820027F9200971FF1 /* Haramain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED270E7720027F9200971FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED270E8720027F9200971FF1 /* LaunchScreen.storyboard in Resources */,
+				ED653A962025CC7700836DDD /* GpsLightCell.xib in Resources */,
+				ED52C734201DB75200D73AF4 /* OpenSans-Semibold.ttf in Resources */,
+				ED653A9E2025CC9600836DDD /* SingleCell.xib in Resources */,
+				ED52C72B201DB75200D73AF4 /* Apache License.txt in Resources */,
+				ED653A982025CC7E00836DDD /* MultiLineCell.xib in Resources */,
+				ED270E8420027F9200971FF1 /* Assets.xcassets in Resources */,
+				ED52C72C201DB75200D73AF4 /* OpenSans-Bold.ttf in Resources */,
+				ED653A9A2025CC8800836DDD /* OnlyImageCell.xib in Resources */,
+				ED270E8220027F9200971FF1 /* Main.storyboard in Resources */,
+				ED653A9C2025CC8E00836DDD /* PlayerCell.xib in Resources */,
+				ED52C731201DB75200D73AF4 /* OpenSans-Light.ttf in Resources */,
+				ED52C733201DB75200D73AF4 /* OpenSans-Regular.ttf in Resources */,
+				ED653A942025CC0C00836DDD /* CellWithButtonCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D45AEFA581C5D9AA0540647 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haramain/Pods-Haramain-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B0FD4A62EF0B46217E129BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Haramain-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A30BF4D56152D65F9E41BB81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Haramain/Pods-Haramain-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireSwiftyJSON/AlamofireSwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageViewer/ImageViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SJSwiftSideMenuController/SJSwiftSideMenuController.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireSwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SJSwiftSideMenuController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haramain/Pods-Haramain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED270E7520027F9200971FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6979CB203A068E009611E0 /* MakkahMadinahPlayingListVC.swift in Sources */,
+				ED11ADDC203BEB43003A3E7C /* DynamicPopUP.swift in Sources */,
+				ED21B6CF2030BECE000F331E /* SingerListVC.swift in Sources */,
+				ED11ADD9203BB9DC003A3E7C /* GPSPopUpVC.swift in Sources */,
+				ED11ADD4203BB47E003A3E7C /* CMSViewController.swift in Sources */,
+				EDD70EFF2028F2C2006B95C4 /* TawaafVC.swift in Sources */,
+				ED21B6DF2030DDAC000F331E /* LanguageListVC.swift in Sources */,
+				ED5086D8203383DF0092E096 /* YouTubeVC.swift in Sources */,
+				ED653AB42027A25200836DDD /* ImmamAudioData.swift in Sources */,
+				ED11ADD7203BB62E003A3E7C /* ImaamsScheduleVC.swift in Sources */,
+				ED00A2CC202BFAE100527265 /* PreviousKhutbahBaseClass.swift in Sources */,
+				ED21B6E42030E490000F331E /* GpsHeadingData.swift in Sources */,
+				EDC9D1DB203A194B005A3424 /* MakkahPlayerListMetadata.swift in Sources */,
+				ED6002D420097CAC00D9B6E7 /* ApiManager.swift in Sources */,
+				ED20F7FA202BE7B7004725CE /* KhutbahsYearsVC.swift in Sources */,
+				EDA5E5C5201935B200F994ED /* AppConstant.swift in Sources */,
+				ED52C71E201BB28A00D73AF4 /* MosqueBaseClass.swift in Sources */,
+				ED52C71B201BB28A00D73AF4 /* MosqueSubCategory.swift in Sources */,
+				EDD70F022028F38F006B95C4 /* TawaafCounterModel.swift in Sources */,
+				ED653AB32027A25200836DDD /* ImmamAudioBaseClass.swift in Sources */,
+				EDC8BE7F2027AEB1007CD3BF /* PreviousTaraweehVC.swift in Sources */,
+				ED52C71C201BB28A00D73AF4 /* MosqueSubCategoryDetail.swift in Sources */,
+				ED653A922025CBD600836DDD /* SingleCell.swift in Sources */,
+				ED21B6D42030CA50000F331E /* SingerListData.swift in Sources */,
+				ED21B6D82030DD46000F331E /* GpsHeadingVC.swift in Sources */,
+				ED20F7F4202B7ACD004725CE /* KhutbahsVC.swift in Sources */,
+				ED52C74C201E566D00D73AF4 /* PrayerVC.swift in Sources */,
+				ED52C718201BB28A00D73AF4 /* MosqueGalleryKey.swift in Sources */,
+				ED6002D02009757200D9B6E7 /* ViewController.swift in Sources */,
+				ED52C719201BB28A00D73AF4 /* MosqueMasjidAlNabawi.swift in Sources */,
+				EDD70EFD2028F2C2006B95C4 /* TawaafCounterCell.swift in Sources */,
+				ED653A8A2025CB9A00836DDD /* GpsLightCell.swift in Sources */,
+				ED21B6CD20305BE0000F331E /* MuadhinsVC.swift in Sources */,
+				ED653AAC202792FE00836DDD /* ImmamData.swift in Sources */,
+				EDD70F0F202900D1006B95C4 /* ImageBaseClass.swift in Sources */,
+				ED52C74F201E586300D73AF4 /* DictionaryExtension.swift in Sources */,
+				ED653A882025CB8700836DDD /* CellWithButtonCell.swift in Sources */,
+				ED21B6E32030E490000F331E /* GpsHeadingBaseClass.swift in Sources */,
+				ED52C71D201BB28A00D73AF4 /* MosqueData.swift in Sources */,
+				ED52C71A201BB28A00D73AF4 /* MosqueMasjidAlHaram.swift in Sources */,
+				EDD70EFE2028F2C2006B95C4 /* TawaafCounterVC.swift in Sources */,
+				ED6979CF203A12BD009611E0 /* MakkahMadinahPlayerSingleTableViewCell.swift in Sources */,
+				ED52C756201E612800D73AF4 /* PrayerData.swift in Sources */,
+				EDC8BE832027B3CC007CD3BF /* TareweehBaseClass.swift in Sources */,
+				ED21B6DE2030DDAC000F331E /* LanguageCell.swift in Sources */,
+				EDC8BE842027B3CC007CD3BF /* TareweehData.swift in Sources */,
+				EDC9D1D9203A194B005A3424 /* MakkahPlayerListBaseClass.swift in Sources */,
+				ED653AAB202792FE00836DDD /* ImmamBaseClass.swift in Sources */,
+				ED653A902025CBC900836DDD /* PlayerCell.swift in Sources */,
+				ED653AA72027849F00836DDD /* SelectImaam.swift in Sources */,
+				EDD70F0B2028F80F006B95C4 /* ShowImageVC.swift in Sources */,
+				ED9B0BD62035359E00B7E7DF /* makkahMadinahDailySalahList.swift in Sources */,
+				ED52C742201DDEFF00D73AF4 /* SideMenuController.swift in Sources */,
+				ED21B6D32030CA50000F331E /* SingerListBaseClass.swift in Sources */,
+				ED21B6E92030E6F5000F331E /* GpsSubHeadingBaseClass.swift in Sources */,
+				ED21B6C7202F9D2B000F331E /* LanguageListBaseClass.swift in Sources */,
+				ED52C751201E592900D73AF4 /* DateExtension.swift in Sources */,
+				ED52C73C201DBD7E00D73AF4 /* Reachability.m in Sources */,
+				ED00A2CD202BFAE100527265 /* PreviousKhutbahData.swift in Sources */,
+				ED6002CF2009757200D9B6E7 /* homeCategoryCell.swift in Sources */,
+				ED21B6EA2030E6F5000F331E /* GpsSubHeadingData.swift in Sources */,
+				EDD70F062028F474006B95C4 /* PlayerVC.swift in Sources */,
+				EDD70F082028F4A2006B95C4 /* Utilities.swift in Sources */,
+				ED653A8E2025CBBC00836DDD /* OnlyImageCell.swift in Sources */,
+				EDC8BE7C2027A938007CD3BF /* SelectCategoryVC.swift in Sources */,
+				ED653AA52027558800836DDD /* ViewExtension.swift in Sources */,
+				EDC9D1DA203A194B005A3424 /* MakkahPlayerListEntries.swift in Sources */,
+				ED1E527C20368DAF001C61B5 /* SinglePlayVC.swift in Sources */,
+				ED6979CD203A127E009611E0 /* MakkahMultipleLineTableViewCell.swift in Sources */,
+				ED52C755201E612800D73AF4 /* PrayerBaseClass.swift in Sources */,
+				EDC9D1DC203A194B005A3424 /* MakkahPlayerListUrls.swift in Sources */,
+				ED21B6DA2030DD5C000F331E /* GpsSubHeadingVC.swift in Sources */,
+				ED21B6C8202F9D2B000F331E /* LanguageListData.swift in Sources */,
+				ED20F7F6202B7B0E004725CE /* MonthListVC.swift in Sources */,
+				ED21B6EC2030E7E5000F331E /* GalleryViewListVC.swift in Sources */,
+				ED52C73B201DBD7E00D73AF4 /* MTReachabilityManager.m in Sources */,
+				ED653A8C2025CBA800836DDD /* MultiLineCell.swift in Sources */,
+				6C52A8DA202042B6008764BC /* CategoryPrayerModel.swift in Sources */,
+				ED270E7D20027F9200971FF1 /* AppDelegate.swift in Sources */,
+				EDD70F10202900D1006B95C4 /* ImageData.swift in Sources */,
+				ED6979CA20399C93009611E0 /* MakkahMadinahListBaseClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED270E8020027F9200971FF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED270E8120027F9200971FF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED270E8520027F9200971FF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED270E8620027F9200971FF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED270E8920027F9200971FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED270E8A20027F9200971FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED270E8C20027F9200971FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8ACFE49E082CF8EA7719D19 /* Pods-Haramain.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Haramain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clipse.ai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Haramain/Supporting/HaraminBridginHeader.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED270E8D20027F9200971FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640B4E2141A59DD89BC78B30 /* Pods-Haramain.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Haramain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clipse.ai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Haramain/Supporting/HaraminBridginHeader.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED270E7420027F9200971FF1 /* Build configuration list for PBXProject "Haramain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED270E8920027F9200971FF1 /* Debug */,
+				ED270E8A20027F9200971FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED270E8B20027F9200971FF1 /* Build configuration list for PBXNativeTarget "Haramain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED270E8C20027F9200971FF1 /* Debug */,
+				ED270E8D20027F9200971FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED270E7120027F9200971FF1 /* Project object */;
+}
